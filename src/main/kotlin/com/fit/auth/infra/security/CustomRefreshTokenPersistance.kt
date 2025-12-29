@@ -23,9 +23,6 @@ class CustomRefreshTokenPersistence(
     private val refreshTokenRepository: RefreshTokenRepository
 ) : RefreshTokenPersistence {
 
-    init {
-        println("--> CUSTOM REFRESH TOKEN PERSISTENCE FOI CARREGADO COM SUCESSO!")
-    }
     override fun persistToken(event: RefreshTokenGeneratedEvent?) {
         if (event?.refreshToken != null && event.authentication?.name != null) {
             runBlocking {

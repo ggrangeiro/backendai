@@ -1,6 +1,8 @@
 package com.fit.auth.presentation.controller
 
-import com.fit.auth.domain.dto.*
+import com.fit.auth.domain.dto.LogoutRequest
+import com.fit.auth.domain.dto.SignUpRequest
+import com.fit.auth.domain.dto.SignUpResponse
 import com.fit.auth.domain.usecase.AuthUseCaseFactory
 import io.micronaut.http.HttpResponse
 import io.micronaut.http.annotation.Body
@@ -17,7 +19,7 @@ class AuthController(
 
     @Secured(SecurityRule.IS_ANONYMOUS)
     @Post("/signup")
-    suspend fun signup(@Body req: SignUpRequest): HttpResponse<LoginResponse> {
+    suspend fun signup(@Body req: SignUpRequest): HttpResponse<SignUpResponse> {
         val res = factory.signUpUseCase().execute(req)
         return HttpResponse.ok(res)
     }
@@ -27,12 +29,5 @@ class AuthController(
     suspend fun logout(@Body req: LogoutRequest): HttpResponse<Any> {
         factory.logoutUseCase().execute(req)
         return HttpResponse.noContent()
-    }
-
-    @Post("/refresh")
-    @Secured(SecurityRule.IS_AUTHENTICATED)
-    suspend fun refresh(@Body req: RefreshRequest): HttpResponse<RefreshResponse> {
-        val res = factory.refreshUseCase().execute(req)
-        return HttpResponse.ok(res)
     }
 }
