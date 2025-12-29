@@ -74,7 +74,7 @@
     "HTTP Request.generated-requests | #1.executor": "Run",
     "HTTP Request.generated-requests | #2.executor": "Run",
     "Micronaut.Application.executor": "Run",
-    "Micronaut.ApplicationKt.executor": "Debug",
+    "Micronaut.ApplicationKt.executor": "Run",
     "Micronaut.MicronautLambdaRuntime.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -285,7 +285,7 @@
       <workItem from="1766948299572" duration="1708000" />
       <workItem from="1766950016145" duration="13149000" />
       <workItem from="1766967058864" duration="59000" />
-      <workItem from="1766967128752" duration="690000" />
+      <workItem from="1766967128752" duration="1303000" />
     </task>
     <servers />
   </component>
