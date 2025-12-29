@@ -11,6 +11,6 @@ class AuthUseCaseFactory(
     val passwordHasher: PasswordHasherPort,
     val refreshRepo: RefreshTokenRepositoryPort
 ) {
-    fun signUpUseCase() = SignUpUseCase(userRepo, passwordHasher, refreshRepo)
+    fun signUpUseCase() = SignUpUseCase(userRepo, passwordHasher)
     fun logoutUseCase() = LogoutUseCase(refreshRepo)
 }

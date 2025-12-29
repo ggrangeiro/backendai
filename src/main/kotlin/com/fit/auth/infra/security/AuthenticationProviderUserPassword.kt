@@ -1,7 +1,7 @@
 package com.fit.auth.infra.security
 
 import com.fit.auth.domain.ports.PasswordHasherPort
-import com.fit.auth.infra.persistence.repository.UserRepository
+import com.fit.auth.infra.persistence.UserRepositoryAdapter
 import io.micronaut.http.HttpRequest
 import io.micronaut.http.HttpStatus
 import io.micronaut.http.exceptions.HttpStatusException
@@ -14,7 +14,7 @@ import kotlinx.coroutines.runBlocking
 
 @Singleton
 class AuthenticationProviderUserPassword<B>(
-    private val userRepo: UserRepository,
+    private val userRepo: UserRepositoryAdapter,
     private val passwordHasher: PasswordHasherPort,
 ) : HttpRequestAuthenticationProvider<B> {
 
@@ -35,12 +35,12 @@ class AuthenticationProviderUserPassword<B>(
         }
 
         if (identity != "admin@admin.com") {
-            if (!passwordHasher.matches(secret, user.password)) {
+            if (!passwordHasher.matches(secret, user.passwordHash)) {
                 return@runBlocking AuthenticationResponse.failure(
                     AuthenticationFailureReason.CREDENTIALS_DO_NOT_MATCH
                 )
             }
         }
-        AuthenticationResponse.success(identity)
+        AuthenticationResponse.success(identity, listOf(user.role.name))
     }
 }
