@@ -1,0 +1,35 @@
+micronaut:
+  application:
+    name: exercicio
+
+  security:
+    authentication: bearer
+    token:
+      jwt:
+        enabled: true
+        issuer: "com.fit.auth"
+        signatures:
+          secret:
+            generator:
+              secret: ${JWT_GENERATOR_SIGNATURE_SECRET:123123123123123123123123123123}
+
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/exercicio-fit?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: 124578
+    driverClassName: com.mysql.cj.jdbc.Driver
+    maximumPoolSize: 10
+
+flyway:
+  datasources:
+    default:
+      enabled: true
+      baseline-on-migrate: true
+
+auth:
+  jwt:
+    issuer: "com.fit.auth"
+    secret: ${JWT_GENERATOR_SIGNATURE_SECRET:123123123123123123123123123123}
+    accessTokenMinutes: 15
+    refreshTokenDays: 30

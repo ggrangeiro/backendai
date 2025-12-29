@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.fit
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [app-name, data, data-jdbc, flyway, graalvm, gradle, http-client-test, jdbc-hikari, junit, kotlin, kotlin-application, ksp, logback, micronaut-aot, micronaut-build, micronaut-http-validation, mysql, netty-server, reactor, readme, security-annotations, security-jwt, serialization-jackson, shade, static-resources, test-resources, validation, yaml, yaml-build]
