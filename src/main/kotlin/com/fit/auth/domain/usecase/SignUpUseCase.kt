@@ -20,13 +20,13 @@ class SignUpUseCase(
 ) {
     suspend fun execute(req: SignUpRequest): LoginResponse {
         userRepo.findByEmail(req.email.trim().lowercase())?.let {
-            throw HttpStatusException(HttpStatus.UNAUTHORIZED, "Credenciais inválidas")
+            throw HttpStatusException(HttpStatus.UNAUTHORIZED, "Não pode cadastrar um user com o mesmo email")
         }
 
         val user = userRepo.saveUser(
-            req.email.trim().lowercase(),
-            req.name,
-            passwordHasher.hashPassword(req.password)
+            email = req.email.trim().lowercase(),
+            name = req.name,
+            password = passwordHasher.hashPassword(req.password)
         )
             ?: throw HttpStatusException(
                 HttpStatus.UNAUTHORIZED,

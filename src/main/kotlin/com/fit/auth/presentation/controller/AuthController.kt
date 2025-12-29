@@ -16,13 +16,6 @@ class AuthController(
 ) {
 
     @Secured(SecurityRule.IS_ANONYMOUS)
-    @Post("/login")
-    suspend fun login(@Body req: LoginRequest): HttpResponse<LoginResponse> {
-        val res = factory.loginUseCase().execute(req)
-        return HttpResponse.ok(res)
-    }
-
-    @Secured(SecurityRule.IS_ANONYMOUS)
     @Post("/signup")
     suspend fun signup(@Body req: SignUpRequest): HttpResponse<LoginResponse> {
         val res = factory.signUpUseCase().execute(req)

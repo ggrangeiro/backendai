@@ -18,7 +18,7 @@ class UserRepositoryAdapter(
         email: String,
         name: String,
         password: String
-    ): User = repo.save(email, name, password).toDomain()
+    ): User = repo.save(email = email, name = name, password = password).toDomain()
 
 
     override suspend fun findById(id: Long): User? = repo.findById(id)?.toDomain()

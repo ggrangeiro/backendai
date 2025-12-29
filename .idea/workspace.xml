@@ -5,46 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="277ec261-f4e5-4f1a-8a43-7a06428d614c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/domain/usecase/SignUpUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__add_name_to_users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/security/AuthenticationProviderUserPassword.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b115736-9d92-4b93-9a42-1aa90562597a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0b115736-9d92-4b93-9a42-1aa90562597a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/AuthenticationProviderUserPassword.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/dto/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/dto/LoginRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/dto/LogoutRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/dto/LogoutRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/dto/RefreshRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/dto/RefreshRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/dto/RefreshResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/dto/RefreshResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/ports/PasswordHasherPort.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/ports/PasswordHasherPort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/ports/UserRepositoryPort.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/ports/UserRepositoryPort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/usecase/AuthUseCaseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/usecase/AuthUseCaseFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/infra/AppClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/infra/persistence/UserRepositoryAdapter$findById$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/infra/persistence/UserRepositoryAdapter$findById$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/usecase/SignUpUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/domain/usecase/SignUpUseCase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/infra/persistence/UserRepositoryAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/infra/persistence/UserRepositoryAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/infra/persistence/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/infra/persistence/entity/UserEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/infra/persistence/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/infra/persistence/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/infra/security/BCryptPasswordHasher.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/infra/security/BCryptPasswordHasher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/infra/security/CustomRefreshTokenPersistence$persistToken$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/infra/security/CustomRefreshTokenPersistence$persistToken$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/presentation/controller/AuthController$login$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/presentation/controller/AuthController$logout$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/presentation/controller/AuthController$logout$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/presentation/controller/AuthController$refresh$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/presentation/controller/AuthController$refresh$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/presentation/controller/AuthController$signup$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/presentation/controller/AuthController$signup$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/presentation/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/fit/auth/presentation/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/ksp/main/classes/com/fit/$AuthenticationProviderUserPassword$Definition$Exec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/ksp/main/classes/com/fit/$AuthenticationProviderUserPassword$Definition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/ksp/main/classes/com/fit/auth/infra/$AppClient$Intercepted$Definition$Exec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/ksp/main/classes/com/fit/auth/infra/$AppClient$Intercepted$Definition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/ksp/main/classes/com/fit/auth/infra/AppClient$Intercepted.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/ksp/main/classes/com/fit/auth/infra/persistence/entity/$UserEntity$Introspection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/ksp/main/classes/com/fit/auth/infra/persistence/entity/$UserEntity$Introspection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/ksp/main/classes/com/fit/auth/infra/persistence/repository/$UserRepository$Intercepted$Definition$Exec.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/ksp/main/classes/com/fit/auth/infra/persistence/repository/$UserRepository$Intercepted$Definition$Exec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/ksp/main/classes/com/fit/auth/infra/persistence/repository/UserRepository$Intercepted.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/ksp/main/classes/com/fit/auth/infra/persistence/repository/UserRepository$Intercepted.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/ksp/main/classes/com/fit/auth/presentation/controller/$AuthController$Definition$Exec.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/ksp/main/classes/com/fit/auth/presentation/controller/$AuthController$Definition$Exec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/ksp/main/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.$AuthenticationProviderUserPassword$Definition" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/ksp/main/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.auth.infra.$AppClient$Intercepted$Definition" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
@@ -73,7 +54,9 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
@@ -84,7 +67,11 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/counters.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
@@ -102,22 +89,13 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/local-state/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/backups/classes/com/fit/$AuthenticationProviderUserPassword$Definition$Exec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/backups/classes/com/fit/$AuthenticationProviderUserPassword$Definition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/backups/classes/com/fit/auth/infra/$AppClient$Intercepted$Definition$Exec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/backups/classes/com/fit/auth/infra/$AppClient$Intercepted$Definition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/backups/classes/com/fit/auth/infra/AppClient$Intercepted.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/backups/classes/com/fit/auth/infra/persistence/entity/$UserEntity$Introspection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/backups/classes/com/fit/auth/infra/persistence/entity/$UserEntity$Introspection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/backups/classes/com/fit/auth/infra/persistence/repository/$UserRepository$Intercepted$Definition$Exec.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/backups/classes/com/fit/auth/infra/persistence/repository/$UserRepository$Intercepted$Definition$Exec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/backups/classes/com/fit/auth/infra/persistence/repository/UserRepository$Intercepted.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/backups/classes/com/fit/auth/infra/persistence/repository/UserRepository$Intercepted.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/backups/classes/com/fit/auth/presentation/controller/$AuthController$Definition$Exec.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/backups/classes/com/fit/auth/presentation/controller/$AuthController$Definition$Exec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/backups/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.$AuthenticationProviderUserPassword$Definition" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/backups/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.auth.infra.$AppClient$Intercepted$Definition" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/classLookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/classLookups/counters.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/classLookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/classLookups/file-to-id.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/classLookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/classLookups/file-to-id.tab.keystream" afterDir="false" />
@@ -162,9 +140,7 @@
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.values" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.values.s" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbols" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbols" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbols.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbols.keystream" afterDir="false" />
@@ -172,21 +148,12 @@
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbols.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbols.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbols.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbols.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbols_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbols_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.$AuthenticationProviderUserPassword$Definition" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.auth.infra.$AppClient$Intercepted$Definition" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/AuthenticationProviderUserPassword.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/domain/dto/AuthDtos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/domain/dto/AuthDtos.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/domain/model/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/domain/model/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/domain/ports/PasswordHasherPort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/domain/ports/PasswordHasherPort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/domain/ports/UserRepositoryPort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/domain/ports/UserRepositoryPort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/domain/usecase/AuthCaseFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/domain/usecase/AuthCaseFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/AppClient.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/domain/usecase/SignUpUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/domain/usecase/SignUpUseCase.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/persistence/UserRepositoryAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/persistence/UserRepositoryAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/persistence/entity/UserEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/persistence/entity/UserEntity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/persistence/repository/UserRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/persistence/repository/UserRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/security/BCryptPasswordHasher.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/security/BCryptPasswordHasher.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/security/CustomRefreshTokenPersistance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/security/CustomRefreshTokenPersistance.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/presentation/controller/AuthController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/fit/auth/presentation/controller/AuthController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +224,7 @@
     "HTTP Request.generated-requests | #1.executor": "Run",
     "HTTP Request.generated-requests | #2.executor": "Run",
     "Micronaut.Application.executor": "Run",
-    "Micronaut.ApplicationKt.executor": "Run",
+    "Micronaut.ApplicationKt.executor": "Debug",
     "Micronaut.MicronautLambdaRuntime.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -321,8 +288,7 @@
         <entry key="MicronautRunConfigurationType">
           <value>
             <map>
-              <entry key="Application" value="STOPPED" />
-              <entry key="ApplicationKt" value="FAILED" />
+              <entry key="ApplicationKt" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -393,6 +359,17 @@
     <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#2" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="exercicio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="exercicio" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <configuration name="Application" type="MicronautRunConfigurationType" factoryName="Micronaut" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fit.Application" />
       <module name="exercicio.main" />
@@ -413,7 +390,7 @@
       <option name="alternativeJrePathEnabled" value="false" />
       <option name="mainClass" value="com.fit.ApplicationKt" />
       <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
+      <option name="programParameters" />
       <option name="vmParameters" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -471,7 +448,7 @@
       <workItem from="1766948299572" duration="1708000" />
       <workItem from="1766950016145" duration="13149000" />
       <workItem from="1766967058864" duration="59000" />
-      <workItem from="1766967128752" duration="3838000" />
+      <workItem from="1766967128752" duration="4328000" />
     </task>
     <servers />
   </component>
@@ -495,6 +472,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/persistence/UserRepositoryAdapter.kt</url>
           <line>14</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/security/CustomRefreshTokenPersistance.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/fit/auth/infra/security/CustomRefreshTokenPersistance.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
