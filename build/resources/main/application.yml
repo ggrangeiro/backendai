@@ -14,6 +14,10 @@ micronaut:
           secret:
             generator:
               secret: ${JWT_GENERATOR_SIGNATURE_SECRET:12312312312312312312312312312312}
+        generator:
+          refresh-token:
+            enabled: true
+            secret: ${JWT_GENERATOR_SIGNATURE_SECRET:12312312312312312312312312312312}
 
 datasources:
   default:
@@ -28,10 +32,3 @@ flyway:
     default:
       enabled: true
       baseline-on-migrate: true
-
-auth:
-  jwt:
-    issuer: "com.fit.auth"
-    secret: ${JWT_GENERATOR_SIGNATURE_SECRET:12312312312312312312312312312312}
-    accessTokenMinutes: 15
-    refreshTokenDays: 30

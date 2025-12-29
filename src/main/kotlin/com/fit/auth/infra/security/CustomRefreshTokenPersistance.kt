@@ -10,12 +10,11 @@ import io.micronaut.security.errors.OauthErrorResponseException
 import io.micronaut.security.token.event.RefreshTokenGeneratedEvent
 import io.micronaut.security.token.refresh.RefreshTokenPersistence
 import jakarta.inject.Singleton
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.launch
 import kotlinx.coroutines.reactive.asPublisher
+import kotlinx.coroutines.runBlocking
 import org.reactivestreams.Publisher
+import java.time.Instant
 
 @Singleton
 @ExecuteOn(TaskExecutors.BLOCKING)
@@ -24,10 +23,19 @@ class CustomRefreshTokenPersistence(
     private val refreshTokenRepository: RefreshTokenRepository
 ) : RefreshTokenPersistence {
 
+    init {
+        println("--> CUSTOM REFRESH TOKEN PERSISTENCE FOI CARREGADO COM SUCESSO!")
+    }
     override fun persistToken(event: RefreshTokenGeneratedEvent?) {
         if (event?.refreshToken != null && event.authentication?.name != null) {
-            CoroutineScope(Dispatchers.IO).launch {
-                userRepository.save(event.authentication.name, "Feijao", event.refreshToken)
+            runBlocking {
+                userRepository.findByEmail(event.authentication.name)?.let {
+                    refreshTokenRepository.save(
+                        it.id!!,
+                        event.refreshToken,
+                        Instant.now().plusSeconds(3600)
+                    )
+                }
             }
         }
     }

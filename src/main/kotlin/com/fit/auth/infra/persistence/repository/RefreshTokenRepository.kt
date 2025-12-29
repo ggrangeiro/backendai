@@ -13,9 +13,9 @@ interface RefreshTokenRepository : CoroutineCrudRepository<RefreshTokenEntity, L
 
     @Transactional
     suspend fun save(
-        @NotBlank userId: Long,
+        userId: Long,
         @NotBlank tokenHash: String,
-        @NotBlank expiresAt: Instant,
+        expiresAt: Instant,
     ): RefreshTokenEntity
 
     suspend fun findByUserId(userId: Long): RefreshTokenEntity?
