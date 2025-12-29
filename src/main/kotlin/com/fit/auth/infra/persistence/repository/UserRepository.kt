@@ -13,7 +13,8 @@ interface UserRepository : CoroutineCrudRepository<UserEntity, Long> {
     @Transactional
     suspend fun save(
         @NotBlank email: String,
-        @NotBlank password: String
+        @NotBlank password: String,
+        @NotBlank name: String
     ): UserEntity
 
     suspend fun findByEmail(email: String): UserEntity?

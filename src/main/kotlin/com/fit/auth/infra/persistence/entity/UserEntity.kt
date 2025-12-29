@@ -16,6 +16,10 @@ data class UserEntity(
     @field:NotEmpty
     val email: String,
 
+    @field:NotEmpty
+    val name: String,
+
+
     val password: String,
     val isActive: Boolean = true,
     @DateCreated

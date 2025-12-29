@@ -14,13 +14,20 @@ class UserRepositoryAdapter(
     override suspend fun findByEmail(email: String): User? =
         repo.findByEmail(email)?.toDomain()
 
-    override suspend fun findById(id: Long): User? = repo.findById(id)?.toDomain()
+    override suspend fun saveUser(
+        email: String,
+        name: String,
+        password: String
+    ): User = repo.save(email, name, password).toDomain()
 
+
+    override suspend fun findById(id: Long): User? = repo.findById(id)?.toDomain()
 
     private fun UserEntity.toDomain(): User =
         User(
             id = this.id!!,
             email = this.email,
+            name = this.name,
             passwordHash = this.password,
             isActive = this.isActive
         )

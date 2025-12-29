@@ -8,4 +8,6 @@ import org.mindrot.jbcrypt.BCrypt
 class BCryptPasswordHasher : PasswordHasherPort {
     override fun matches(rawPassword: String, passwordHash: String): Boolean =
         BCrypt.checkpw(rawPassword, passwordHash)
+
+    override fun hashPassword(rawPassword: String): String = BCrypt.hashpw(rawPassword, BCrypt.gensalt(10))
 }

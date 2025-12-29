@@ -22,14 +22,22 @@ class AuthController(
         return HttpResponse.ok(res)
     }
 
-    @Post("/logout")
     @Secured(SecurityRule.IS_ANONYMOUS)
+    @Post("/signup")
+    suspend fun signup(@Body req: SignUpRequest): HttpResponse<LoginResponse> {
+        val res = factory.signUpUseCase().execute(req)
+        return HttpResponse.ok(res)
+    }
+
+    @Post("/logout")
+    @Secured(SecurityRule.IS_AUTHENTICATED)
     suspend fun logout(@Body req: LogoutRequest): HttpResponse<Any> {
         factory.logoutUseCase().execute(req)
         return HttpResponse.noContent()
     }
 
     @Post("/refresh")
+    @Secured(SecurityRule.IS_AUTHENTICATED)
     suspend fun refresh(@Body req: RefreshRequest): HttpResponse<RefreshResponse> {
         val res = factory.refreshUseCase().execute(req)
         return HttpResponse.ok(res)

@@ -27,7 +27,7 @@ class CustomRefreshTokenPersistence(
     override fun persistToken(event: RefreshTokenGeneratedEvent?) {
         if (event?.refreshToken != null && event.authentication?.name != null) {
             CoroutineScope(Dispatchers.IO).launch {
-                userRepository.save(event.authentication.name, event.refreshToken)
+                userRepository.save(event.authentication.name, "Feijao", event.refreshToken)
             }
         }
     }

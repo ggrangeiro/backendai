@@ -9,15 +9,25 @@ data class LoginResponse(
     val tokenType: String = "Bearer",
     val expiresInSeconds: Long
 )
+
 @Serdeable
 data class RefreshResponse(
     val accessToken: String,
     val tokenType: String = "Bearer",
     val expiresInSeconds: Long
 )
+
 @Serdeable
 data class LoginRequest(val email: String, val password: String)
+
 @Serdeable
 data class LogoutRequest(val refreshToken: String)
+
 @Serdeable
 data class RefreshRequest(val refreshToken: String)
+
+@Serdeable
+data class SignUpRequest(val name: String, val email: String, val password: String)
+
+@Serdeable
+data class SignUpResponse(val email: String, val password: String)
