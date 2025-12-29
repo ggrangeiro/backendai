@@ -1,4 +1,4 @@
-package com.fit.auth.infra.security
+package com.fit.auth.infra.persistence.entity
 
 enum class UserRole {
     USER, PERSONAL, ADMIN;

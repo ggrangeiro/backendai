@@ -1,6 +1,6 @@
 package com.fit.auth.domain.model
 
-import com.fit.auth.infra.security.UserRole
+import com.fit.auth.infra.persistence.entity.UserRole
 
 data class User(
     val id: Long,
