@@ -1,0 +1,44 @@
+micronaut:
+  application:
+    name: backendia
+  server:
+    port: ${PORT:8080}
+
+  security:
+    authentication: bearer
+    endpoints:
+      login:
+        enabled: true
+      payload:
+        username-key: email
+        password-key: password
+    token:
+      jwt:
+        enabled: true
+        bearer:
+          enabled: true
+        issuer: "com.fit.auth"
+        signatures:
+          secret:
+            generator:
+              secret: ${JWT_GENERATOR_SIGNATURE_SECRET:12312312312312312312312312312312}
+        generator:
+          refresh-token:
+            enabled: true
+            secret: ${JWT_GENERATOR_SIGNATURE_SECRET:12312312312312312312312312312312}
+reactor:
+  enable-automatic-context-propagation: false
+
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/exercicio-fit?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: 124578
+    driverClassName: com.mysql.cj.jdbc.Driver
+    maximumPoolSize: 10
+
+flyway:
+  datasources:
+    default:
+      enabled: true
+      baseline-on-migrate: true
