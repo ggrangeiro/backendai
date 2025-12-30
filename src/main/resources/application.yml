@@ -1,6 +1,8 @@
 micronaut:
   application:
-    name: exercicio
+    name: backendia
+  server:
+    port: ${PORT:8080}
 
   security:
     authentication: bearer
@@ -21,9 +23,9 @@ micronaut:
 
 datasources:
   default:
-    url: jdbc:mysql://localhost:3306/exercicio-fit?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    url: jdbc:mysql:///exercicio-fit?cloudSqlInstance=gen-lang-client-0004040174:southamerica-east1:exercicio-fit&socketFactory=com.google.cloud.sql.mysql.SocketFactory
     username: root
-    password: 124578
+    password: 124578Ka@
     driverClassName: com.mysql.cj.jdbc.Driver
     maximumPoolSize: 10
 

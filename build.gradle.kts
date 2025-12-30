@@ -49,8 +49,9 @@ dependencies {
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test")
     implementation("org.mindrot:jbcrypt:0.4")
     implementation("io.micronaut.gcp:micronaut-gcp-function-http:2.0.0.M3")
-    runtimeOnly("io.micronaut.gcp:micronaut-gcp-function-http:2.0.0.M3")
-    runtimeOnly("com.google.cloud.functions:functions-framework-api:1.1.0")
+    developmentOnly("com.google.cloud.functions:functions-framework-api:1.0.1")
+    developmentOnly("io.micronaut:micronaut-http-server-netty")
+
 }
 
 
