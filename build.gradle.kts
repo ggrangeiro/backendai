@@ -37,8 +37,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
 
-    implementation("io.micronaut.gcp:micronaut-gcp-function-http")
-    implementation("com.google.cloud.functions:functions-framework-api")
+   //implementation("io.micronaut.gcp:micronaut-gcp-function-http")
+    //implementation("com.google.cloud.functions:functions-framework-api")
 
     compileOnly("io.micronaut:micronaut-http-client")
     runtimeOnly("ch.qos.logback:logback-classic")
@@ -58,7 +58,10 @@ dependencies {
 
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test")
     implementation("org.mindrot:jbcrypt:0.4")
+    implementation("io.micronaut:micronaut-http-server-netty")
+
 }
+
 
 application {
     mainClass = "com.fit.ApplicationKt"
@@ -69,7 +72,8 @@ java {
 }
 
 micronaut {
-    runtime("google_function")
+    //runtime("google_function")
+    runtime("netty")
     testRuntime("junit5")
     processing {
         incremental(true)
@@ -80,9 +84,9 @@ micronaut {
         convertYamlToJava = false
         precomputeOperations = true
         cacheEnvironment = true
-        optimizeClassLoading = false
+        optimizeClassLoading = true
         deduceEnvironment = true
-        optimizeNetty = false
+        optimizeNetty = true
         replaceLogbackXml = true
         configurationProperties.put("micronaut.security.jwks.enabled", "false")
     }

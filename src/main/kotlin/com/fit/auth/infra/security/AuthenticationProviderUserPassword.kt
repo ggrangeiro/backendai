@@ -1,6 +1,6 @@
 package com.fit.auth.infra.security
 
-import com.fit.auth.data.UserRepositoryAdapter
+import com.fit.data.UserRepositoryAdapter
 import com.fit.auth.domain.ports.PasswordHasherPort
 import io.micronaut.http.HttpRequest
 import io.micronaut.http.HttpStatus

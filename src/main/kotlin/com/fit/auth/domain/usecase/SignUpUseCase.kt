@@ -20,7 +20,7 @@ class SignUpUseCase(
             email = req.email.trim().lowercase(),
             name = req.name,
             password = passwordHasher.hashPassword(req.password),
-            role = UserRole.USER
+            role = UserRole.PERSONAL
 
         ) ?: throw HttpStatusException(
             HttpStatus.UNAUTHORIZED,

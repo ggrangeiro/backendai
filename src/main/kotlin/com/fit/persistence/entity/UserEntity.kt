@@ -20,7 +20,7 @@ data class UserEntity(
     val targetBodyFatPct: BigDecimal? = null,
     val personalId: Long? = null,
     val sex: Sex? = null,
-    val role: UserRole = UserRole.USER,
+    val role: UserRole,
     @DateCreated
     val createdAt: Instant? = null,
     @DateUpdated
