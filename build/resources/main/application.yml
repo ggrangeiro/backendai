@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: exercicio
+    name: backendia
   server:
     port: ${PORT:8080}
 
