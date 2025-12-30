@@ -26,7 +26,7 @@ datasources:
     url: jdbc:mysql:///exercicio-fit?cloudSqlInstance=gen-lang-client-0004040174:southamerica-east1:exercicio-fit&socketFactory=com.google.cloud.sql.mysql.SocketFactory
     username: root
     password: 124578Ka@
-    driverClassName: com.mysql.cj.jdbc.Driver
+    driverClassName: com.mysql.cj.jdbc.Drivergi
     maximumPoolSize: 10
 
 flyway:

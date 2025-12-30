@@ -16,6 +16,9 @@ repositories {
     mavenCentral()
 }
 
+micronaut {
+    runtime("google_function")
+}
 dependencies {
     ksp("io.micronaut.data:micronaut-data-processor")
     ksp("io.micronaut:micronaut-http-validation")
@@ -49,7 +52,7 @@ dependencies {
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test")
     implementation("org.mindrot:jbcrypt:0.4")
     implementation("io.micronaut.gcp:micronaut-gcp-function-http:2.0.0.M3")
-    developmentOnly("com.google.cloud.functions:functions-framework-api:1.0.1")
+    implementation("com.google.cloud.functions:functions-framework-api:1.1.1")
 }
 
 

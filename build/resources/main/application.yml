@@ -23,9 +23,9 @@ micronaut:
 
 datasources:
   default:
-    url: jdbc:mysql:///exercicio-fit?cloudSqlInstance=gen-lang-client-0004040174:southamerica-east1:exercicio-fit&socketFactory=com.google.cloud.sql.mysql.SocketFactory
+    url: jdbc:mysql://localhost:3306/exercicio-fit?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
     username: root
-    password: 124578Ka@
+    password: 124578
     driverClassName: com.mysql.cj.jdbc.Driver
     maximumPoolSize: 10
 
