@@ -92,6 +92,41 @@ micronaut {
 }
 
 
+tasks.register("stopGradle") {
+    group = "custom"
+    description = "Para os daemons do Gradle"
+    doLast {
+        exec {
+            commandLine("./gradlew", "--stop")
+        }
+    }
+}
+
+tasks.register("cleanBuildNoTests") {
+    group = "custom"
+    description = "Executa clean build sem testes"
+    dependsOn("cleanBuild")
+    doLast {
+        exec {
+            commandLine(
+                "./gradlew",
+                "clean",
+                "build",
+                "-x",
+                "internalStartTestResourcesService",
+                "-x",
+                "test"
+            )
+        }
+    }
+}
+
+tasks.register("arroz") {
+    group = "custom"
+    description = "Pipeline completo + runFunction"
+    dependsOn("cleanBuildNoTests", "runFunction")
+}
+
 tasks.named<io.micronaut.gradle.docker.NativeImageDockerfile>("dockerfileNative") {
     jdkVersion = "21"
 }
