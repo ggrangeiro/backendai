@@ -1,7 +1,7 @@
 package com.fit.auth.infra.security
 
-import com.fit.auth.infra.persistence.repository.RefreshTokenRepository
-import com.fit.auth.infra.persistence.repository.UserRepository
+import com.fit.auth.data.repository.RefreshTokenRepository
+import com.fit.auth.data.repository.UserRepository
 import io.micronaut.scheduling.TaskExecutors
 import io.micronaut.scheduling.annotation.ExecuteOn
 import io.micronaut.security.authentication.Authentication

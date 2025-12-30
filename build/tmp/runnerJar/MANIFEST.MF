@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Class-Path: resources/ classes/ libs/micronaut-data-jdbc-4.14.2.jar libs
+ /micronaut-flyway-7.9.2.jar libs/micronaut-gcp-function-http-5.13.1.jar
+  libs/micronaut-kotlin-runtime-4.7.0.jar libs/micronaut-security-jwt-4.
+ 15.1.jar libs/micronaut-validation-4.12.0.jar libs/micronaut-servlet-co
+ re-5.6.0.jar libs/micronaut-security-4.15.1.jar libs/micronaut-reactor-
+ 3.9.1.jar libs/micronaut-serde-jackson-2.16.2.jar libs/micronaut-jdbc-h
+ ikari-6.3.2.jar libs/micronaut-data-runtime-4.14.2.jar libs/micronaut-d
+ ata-tx-jdbc-4.14.2.jar libs/micronaut-data-connection-jdbc-4.14.2.jar l
+ ibs/micronaut-jdbc-6.3.2.jar libs/micronaut-gcp-function-5.13.1.jar lib
+ s/micronaut-serde-support-2.16.2.jar libs/micronaut-serde-api-2.16.2.ja
+ r libs/micronaut-data-model-4.14.2.jar libs/micronaut-data-tx-4.14.2.ja
+ r libs/micronaut-data-connection-4.14.2.jar libs/micronaut-security-ann
+ otations-4.15.1.jar libs/micronaut-management-4.10.12.jar libs/micronau
+ t-http-server-4.10.12.jar libs/micronaut-router-4.10.12.jar libs/micron
+ aut-jackson-core-4.10.12.jar libs/micronaut-json-core-4.10.12.jar libs/
+ micronaut-http-netty-4.10.12.jar libs/micronaut-runtime-4.10.12.jar lib
+ s/micronaut-function-4.10.12.jar libs/micronaut-http-4.10.12.jar libs/m
+ icronaut-discovery-core-4.10.12.jar libs/micronaut-context-propagation-
+ 4.10.12.jar libs/micronaut-retry-4.10.12.jar libs/micronaut-context-4.1
+ 0.12.jar libs/micronaut-aop-4.10.12.jar libs/micronaut-buffer-netty-4.1
+ 0.12.jar libs/micronaut-inject-4.10.12.jar libs/context-propagation-1.1
+ .3.jar libs/jakarta.validation-api-3.1.1.jar libs/flyway-mysql-10.22.0.
+ jar libs/flyway-core-10.22.0.jar libs/jackson-datatype-jsr310-2.19.2.ja
+ r libs/jackson-dataformat-toml-2.19.2.jar libs/jackson-databind-2.19.2.
+ jar libs/jackson-annotations-2.19.2.jar libs/jackson-core-2.19.2.jar li
+ bs/jackson-module-kotlin-2.19.2.jar libs/kotlin-reflect-1.9.25.jar libs
+ /kotlin-stdlib-jdk7-1.9.25.jar libs/kotlinx-coroutines-core-jvm-1.8.1.j
+ ar libs/kotlinx-coroutines-reactive-1.8.1.jar libs/kotlin-stdlib-1.9.25
+ .jar libs/kotlin-stdlib-jdk8-1.9.25.jar libs/functions-framework-api-1.
+ 1.4.jar libs/jbcrypt-0.4.jar libs/logback-classic-1.5.19.jar libs/mysql
+ -connector-j-9.4.0.jar libs/snakeyaml-2.4.jar libs/jakarta.annotation-a
+ pi-2.1.1.jar libs/netty-codec-http2-4.2.9.Final.jar libs/netty-codec-ht
+ tp-4.2.9.Final.jar libs/netty-handler-4.2.9.Final.jar libs/netty-codec-
+ compression-4.2.9.Final.jar libs/netty-codec-base-4.2.9.Final.jar libs/
+ netty-transport-native-unix-common-4.2.9.Final.jar libs/netty-transport
+ -4.2.9.Final.jar libs/netty-buffer-4.2.9.Final.jar libs/netty-resolver-
+ 4.2.9.Final.jar libs/netty-common-4.2.9.Final.jar libs/reactor-core-3.7
+ .12.jar libs/micronaut-core-reactive-4.10.12.jar libs/reactive-streams-
+ 1.0.4.jar libs/micronaut-core-4.10.12.jar libs/protobuf-java-4.31.1.jar
+  libs/logback-core-1.5.19.jar libs/HikariCP-6.3.3.jar libs/slf4j-api-2.
+ 0.17.jar libs/nimbus-jose-jwt-10.5.jar libs/jakarta.persistence-api-3.1
+ .0.jar libs/jakarta.transaction-api-2.0.1.jar libs/annotations-23.0.0.j
+ ar libs/jakarta.inject-api-2.0.1.jar libs/cloudevents-api-4.0.1.jar lib
+ s/config-1.4.3.jar
+Main-Class: com.fit.ApplicationKt
+

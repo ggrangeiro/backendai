@@ -2,7 +2,7 @@ package com.fit.auth.domain.usecase
 
 import com.fit.auth.domain.dto.LogoutRequest
 import com.fit.auth.domain.ports.RefreshTokenRepositoryPort
-import com.fit.auth.utils.sha256Hex
+import com.fit.utils.sha256Hex
 import io.micronaut.http.HttpStatus
 import io.micronaut.http.exceptions.HttpStatusException
 import java.time.Instant

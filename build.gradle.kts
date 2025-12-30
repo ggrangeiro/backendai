@@ -11,20 +11,19 @@ plugins {
 version = "0.1"
 group = "com.fit"
 
-val kotlinVersion = project.properties.get("kotlinVersion")
+val kotlinVersion = project.properties.get("kotlinVersion") ?: "1.9.25"
+
 repositories {
     mavenCentral()
 }
 
-micronaut {
-    runtime("google_function")
-}
 dependencies {
     ksp("io.micronaut.data:micronaut-data-processor")
     ksp("io.micronaut:micronaut-http-validation")
     ksp("io.micronaut.security:micronaut-security-annotations")
     ksp("io.micronaut.serde:micronaut-serde-processor")
     ksp("io.micronaut.validation:micronaut-validation-processor")
+
     implementation("io.micrometer:context-propagation")
     implementation("io.micronaut.data:micronaut-data-jdbc")
     implementation("io.micronaut.flyway:micronaut-flyway")
@@ -37,54 +36,58 @@ dependencies {
     implementation("jakarta.validation:jakarta.validation-api")
     implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
+
+    implementation("io.micronaut.gcp:micronaut-gcp-function-http")
+    implementation("com.google.cloud.functions:functions-framework-api")
+
     compileOnly("io.micronaut:micronaut-http-client")
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
     runtimeOnly("com.mysql:mysql-connector-j")
     runtimeOnly("org.flywaydb:flyway-mysql")
     runtimeOnly("org.yaml:snakeyaml")
+
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactive")
+
     testImplementation("io.micronaut:micronaut-http-client")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
     aotPlugins(platform("io.micronaut.platform:micronaut-platform:4.10.6"))
     aotPlugins("io.micronaut.security:micronaut-security-aot")
+
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test")
     implementation("org.mindrot:jbcrypt:0.4")
-    implementation("io.micronaut.gcp:micronaut-gcp-function-http:2.0.0.M3")
-    implementation("com.google.cloud.functions:functions-framework-api:1.1.1")
 }
-
 
 application {
     mainClass = "com.fit.ApplicationKt"
 }
+
 java {
     sourceCompatibility = JavaVersion.toVersion("21")
 }
 
-
-graalvmNative.toolchainDetection = false
-
 micronaut {
-    runtime("netty")
+    runtime("google_function")
     testRuntime("junit5")
     processing {
         incremental(true)
         annotations("com.fit.*")
     }
     aot {
-        // Please review carefully the optimizations enabled below
-        // Check https://micronaut-projects.github.io/micronaut-aot/latest/guide/ for more details
         optimizeServiceLoading = false
         convertYamlToJava = false
         precomputeOperations = true
         cacheEnvironment = true
-        optimizeClassLoading = true
+        optimizeClassLoading = false
         deduceEnvironment = true
-        optimizeNetty = true
+        optimizeNetty = false
         replaceLogbackXml = true
         configurationProperties.put("micronaut.security.jwks.enabled", "false")
+    }
+    testResources {
+        sharedServer.set(false)
     }
 }
 
@@ -92,7 +95,5 @@ micronaut {
 tasks.named<io.micronaut.gradle.docker.NativeImageDockerfile>("dockerfileNative") {
     jdkVersion = "21"
 }
-
-
 
 
