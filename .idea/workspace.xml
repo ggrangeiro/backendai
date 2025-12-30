@@ -5,96 +5,96 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="277ec261-f4e5-4f1a-8a43-7a06428d614c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.micronaut/test-resources/test-resources-port.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.micronaut/test-resources/test-resources-port.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.micronaut/test-resources/test-resources-settings/test-resources.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.micronaut/test-resources/test-resources-settings/test-resources.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/exercicio-0.1.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/exercicio-optimized-0.1.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/exercicio-shadow-0.1.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.auth.domain.dto.$LogoutRequest$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.auth.domain.dto.$SignUpRequest$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.auth.domain.dto.$SignUpResponse$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.persistence.entity.$EvolutionEntity$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.persistence.entity.$ExerciseEntity$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.persistence.entity.$RefreshTokenEntity$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.persistence.entity.$UserEntity$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.persistence.entity.$UserExerciseEntity$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.persistence.entity.$UserExerciseId$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.personal.domain.dto.$GetUserByPersonalRequest$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.personal.domain.dto.$GetUserByPersonalResponse$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.personal.domain.dto.$StudentDTO$Introspection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.graal.GraalReflectionConfigurer/com.fit.auth.presentation.controller.$AuthController$ReflectConfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.core.graal.GraalReflectionConfigurer/com.fit.personal.presentation.controller.$PersonalController$ReflectConfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.auth.domain.usecase.$AuthUseCaseFactory$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.auth.infra.security.$AuthenticationProviderUserPassword$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.auth.infra.security.$BCryptPasswordHasher$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.auth.infra.security.$CustomRefreshTokenPersistence$ApplicationEventListener$persistToken1$Intercepted$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.auth.infra.security.$CustomRefreshTokenPersistence$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.auth.presentation.controller.$AuthController$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.data.$UserRepositoryAdapter$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.data.repository.$RefreshTokenRepository$Intercepted$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.data.repository.$UserRepository$Intercepted$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.personal.data.repository.$PersonalRepository$Intercepted$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.personal.domain.usecase.$PersonalUseCaseFactory$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.fit.personal.presentation.controller.$PersonalController$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/db/migration/V1__create_users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/db/migration/V2__create_refresh_tokens.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/db/migration/V3__insert_admin_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/db/migration/V4__add_name_to_users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/db/migration/V5__adapt_schema_to_fitness_structure.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker/main/layers/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/jit-service-files/META-INF/services/ch.qos.logback.classic.spi.Configurator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/jit-service-files/META-INF/services/io.micronaut.context.ApplicationContextConfigurer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/jit-service-files/META-INF/services/io.micronaut.core.optim.StaticOptimizations$Loader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/jit.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/jit/classes/META-INF/services/ch.qos.logback.classic.spi.Configurator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/jit/classes/META-INF/services/io.micronaut.context.ApplicationContextConfigurer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/jit/classes/META-INF/services/io.micronaut.core.optim.StaticOptimizations$Loader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/jit/logs/resource-filter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/jit/sources/com/fit/AOTApplicationContextConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/jit/sources/com/fit/DeducedEnvironmentConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/jit/sources/com/fit/EnvironmentPropertiesOptimizationLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/jit/sources/com/fit/StaticLogbackConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/native-service-files/META-INF/services/ch.qos.logback.classic.spi.Configurator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/native-service-files/META-INF/services/io.micronaut.context.ApplicationContextConfigurer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/native-service-files/META-INF/services/io.micronaut.core.optim.StaticOptimizations$Loader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/native.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/native/classes/META-INF/native-image/com.fit/native-image.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/native/classes/META-INF/services/ch.qos.logback.classic.spi.Configurator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/native/classes/META-INF/services/io.micronaut.context.ApplicationContextConfigurer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/native/classes/META-INF/services/io.micronaut.core.optim.StaticOptimizations$Loader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/native/logs/resource-filter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/native/sources/com/fit/AOTApplicationContextConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/native/sources/com/fit/DeducedEnvironmentConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/native/sources/com/fit/EnvironmentPropertiesOptimizationLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/aot/native/sources/com/fit/StaticLogbackConfiguration.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/local-state/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/backups/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.personal.domain.dto.$GetUserByPersonalDTOs$GetUserByPersonalRequest$Introspection" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/backups/resources/META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.fit.personal.domain.dto.$GetUserByPersonalDTOs$GetUserByPersonalResponse$Introspection" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/classLookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/classLookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/classLookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/classLookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/classLookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/classLookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/classLookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/classLookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/classLookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/classLookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/classLookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/classLookups/lookups.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/classpath-entries.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/classpath-entries.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/classpath-structure.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/classpath-structure.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/sourceToOutputs" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/sourceToOutputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/sourceToOutputs.values" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/sourceToOutputs.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/sourceToOutputs.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/sourceToOutputs.values.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbolLookups/lookups.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbols" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbols" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kspCaches/main/symbols.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kspCaches/main/symbols.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/optimizedScripts/exercicio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/optimizedScripts/exercicio.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/exercicio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/exercicio.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scriptsShadow/exercicio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scriptsShadow/exercicio.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-resources/20ebcf7d-ced7-47d6-a285-f21f1e9d0a4b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-resources/cds/cds.classlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/.cache/expanded/zip_be1e2f4bee7d336c09f16cc258d42651/META-INF/services/ch.qos.logback.classic.spi.Configurator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/.cache/expanded/zip_be1e2f4bee7d336c09f16cc258d42651/META-INF/services/io.micronaut.context.ApplicationContextConfigurer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/.cache/expanded/zip_be1e2f4bee7d336c09f16cc258d42651/META-INF/services/io.micronaut.core.optim.StaticOptimizations$Loader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/optimizedJitJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/optimizedJitJarAll/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/optimizedNativeJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/optimizedRunnerJitJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/runnerJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -468,12 +468,23 @@
       <workItem from="1766950016145" duration="13149000" />
       <workItem from="1766967058864" duration="59000" />
       <workItem from="1766967128752" duration="4328000" />
-      <workItem from="1767128862966" duration="7233000" />
+      <workItem from="1767128862966" duration="8775000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
