@@ -31,6 +31,27 @@ reactor:
 
 datasources:
   default:
-    enabled: false
+    url: jdbc:mysql://localhost:3306/exercicio-fit?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: 124578
+    driverClassName: com.mysql.cj.jdbc.Driver
+    maximumPoolSize: 10
+
 flyway:
-  enabled: false
+  datasources:
+    default:
+      enabled: true
+      baseline-on-migrate: true
+      locations: classpath:db/migration
+
+#datasources:
+#  default:
+#    url: "jdbc:mysql:///back-prod-teste?cloudSqlInstance=gen-lang-client-0004040174:us-west1:back-prod-teste&socketFactory=com.google.cloud.sql.mysql.SocketFactory"
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    password: "124578Fe&"
+#    dialect: MYSQL
+#    db-configs:
+#      max-lifetime: 1800000 # 30 min
+#      idle-timeout: 600000  # 10 min
+#      connection-timeout: 30000

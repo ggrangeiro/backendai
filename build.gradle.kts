@@ -37,8 +37,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
 
-    implementation("io.micronaut.gcp:micronaut-gcp-function-http")
-    implementation("com.google.cloud.functions:functions-framework-api")
+
 
     compileOnly("io.micronaut:micronaut-http-client")
     runtimeOnly("ch.qos.logback:logback-classic")
@@ -58,7 +57,11 @@ dependencies {
 
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test")
     implementation("org.mindrot:jbcrypt:0.4")
-    //implementation("io.micronaut:micronaut-http-server-netty")
+    //implementation("io.micronaut.gcp:micronaut-gcp-function-http")
+    //implementation("com.google.cloud.functions:functions-framework-api")
+    //implementation("com.google.cloud.sql:mysql-socket-factory-connector-j-8:1.15.2")
+    //implementation("com.google.cloud.functions.invoker:java-function-invoker:1.3.1")
+    implementation("io.micronaut:micronaut-http-server-netty")
 }
 
 
@@ -71,8 +74,8 @@ java {
 }
 
 micronaut {
-    runtime("google_function")
-    //runtime("netty")
+    //runtime("google_function")
+    runtime("netty")
     testRuntime("junit5")
     processing {
         incremental(true)
