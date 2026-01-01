@@ -1,6 +1,6 @@
 package com.fit.personal.presentation.controller
 
-import com.fit.persistence.entity.UserRole
+import com.fit.data.persistence.entity.UserRole
 import com.fit.personal.domain.dto.GetUserByPersonalRequest
 import com.fit.personal.domain.dto.GetUserByPersonalResponse
 import com.fit.personal.domain.usecase.PersonalUseCaseFactory

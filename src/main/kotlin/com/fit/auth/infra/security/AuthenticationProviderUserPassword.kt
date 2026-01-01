@@ -2,7 +2,7 @@ package com.fit.auth.infra.security
 
 import com.fit.auth.domain.ports.PasswordHasherPort
 import com.fit.data.UserRepositoryAdapter
-import com.fit.persistence.entity.UserRole
+import com.fit.data.persistence.entity.UserRole
 import io.micronaut.http.HttpRequest
 import io.micronaut.http.HttpStatus
 import io.micronaut.http.exceptions.HttpStatusException

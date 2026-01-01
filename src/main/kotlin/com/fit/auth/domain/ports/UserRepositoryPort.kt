@@ -1,7 +1,7 @@
 package com.fit.auth.domain.ports
 
 import com.fit.auth.domain.model.User
-import com.fit.persistence.entity.UserRole
+import com.fit.data.persistence.entity.UserRole
 
 interface UserRepositoryPort {
     suspend fun findByEmail(email: String): User?

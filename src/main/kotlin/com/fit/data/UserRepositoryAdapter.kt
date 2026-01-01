@@ -3,8 +3,8 @@ package com.fit.data
 import com.fit.auth.domain.model.User
 import com.fit.auth.domain.ports.UserRepositoryPort
 import com.fit.data.repository.UserRepository
-import com.fit.persistence.entity.UserEntity
-import com.fit.persistence.entity.UserRole
+import com.fit.data.persistence.entity.UserEntity
+import com.fit.data.persistence.entity.UserRole
 import jakarta.inject.Singleton
 
 @Singleton

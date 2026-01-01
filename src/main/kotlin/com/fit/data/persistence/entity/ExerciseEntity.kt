@@ -1,4 +1,4 @@
-package com.fit.persistence.entity
+package com.fit.data.persistence.entity
 
 import io.micronaut.data.annotation.*
 import io.micronaut.data.model.naming.NamingStrategies

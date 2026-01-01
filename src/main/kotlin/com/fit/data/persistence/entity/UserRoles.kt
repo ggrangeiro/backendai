@@ -1,4 +1,4 @@
-package com.fit.persistence.entity
+package com.fit.data.persistence.entity
 
 enum class UserRole {
     USER, PERSONAL, ADMIN;

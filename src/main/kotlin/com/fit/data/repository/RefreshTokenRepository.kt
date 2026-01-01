@@ -1,6 +1,6 @@
 package com.fit.data.repository
 
-import com.fit.persistence.entity.RefreshTokenEntity
+import com.fit.data.persistence.entity.RefreshTokenEntity
 import io.micronaut.data.jdbc.annotation.JdbcRepository
 import io.micronaut.data.model.query.builder.sql.Dialect
 import io.micronaut.data.repository.kotlin.CoroutineCrudRepository
