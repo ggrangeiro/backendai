@@ -24,7 +24,6 @@ dependencies {
     ksp("io.micronaut.serde:micronaut-serde-processor")
     ksp("io.micronaut.validation:micronaut-validation-processor")
 
-
     implementation("io.micrometer:context-propagation")
     implementation("io.micronaut.data:micronaut-data-jdbc")
     implementation("io.micronaut.flyway:micronaut-flyway")
@@ -58,10 +57,10 @@ dependencies {
 
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test")
     implementation("org.mindrot:jbcrypt:0.4")
-    //implementation("io.micronaut.gcp:micronaut-gcp-function-http")
-    //implementation("com.google.cloud.functions:functions-framework-api")
-    //implementation("com.google.cloud.sql:mysql-socket-factory-connector-j-8:1.15.2")
-    //implementation("com.google.cloud.functions.invoker:java-function-invoker:1.3.1")
+//    implementation("io.micronaut.gcp:micronaut-gcp-function-http")
+//    implementation("com.google.cloud.functions:functions-framework-api")
+//    implementation("com.google.cloud.sql:mysql-socket-factory-connector-j-8:1.15.2")
+//    implementation("com.google.cloud.functions.invoker:java-function-invoker:1.3.1")
     implementation("io.micronaut:micronaut-http-server-netty")
 }
 
@@ -75,7 +74,7 @@ java {
 }
 
 micronaut {
-    //runtime("google_function")
+    // runtime("google_function")
     runtime("netty")
     testRuntime("junit5")
     processing {

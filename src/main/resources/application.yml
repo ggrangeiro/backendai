@@ -6,6 +6,9 @@ micronaut:
       swagger:
         paths: classpath:META-INF/swagger
         mapping: /swagger/**
+      swagger-ui:
+        paths: classpath:META-INF/swagger/views/swagger-ui
+        mapping: /swagger-ui/**
   server:
     port: 8080
     cors:
@@ -32,6 +35,11 @@ micronaut:
 
   security:
     authentication: bearer
+    intercept-url-map:
+      - pattern: /swagger/**
+        access: isAnonymous()
+      - pattern: /swagger-ui/**
+        access: isAnonymous()
     endpoints:
       login:
         enabled: true
@@ -72,7 +80,7 @@ flyway:
 
 #datasources:
 #  default:
-#    url: "jdbc:mysql:///back-prod-teste?cloudSqlInstance=gen-lang-client-0004040174:us-west1:back-prod-teste&socketFactory=com.google.cloud.sql.mysql.SocketFactory"
+#    url: "jdbc:mysql:///fit-ai?cloudSqlInstance=gen-lang-client-0004040174:us-west1:fit-ai-back&socketFactory=com.google.cloud.sql.mysql.SocketFactory"
 #    driver-class-name: com.mysql.cj.jdbc.Driver
 #    username: root
 #    password: "124578Fe&"
