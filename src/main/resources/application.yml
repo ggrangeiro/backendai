@@ -1,7 +1,11 @@
 micronaut:
   application:
     name: backendia
-
+  router:
+    static-resources:
+      swagger:
+        paths: classpath:META-INF/swagger
+        mapping: /swagger/**
   server:
     port: 8080
     cors:
@@ -77,3 +81,5 @@ flyway:
 #      max-lifetime: 1800000 # 30 min
 #      idle-timeout: 600000  # 10 min
 #      connection-timeout: 30000
+
+
