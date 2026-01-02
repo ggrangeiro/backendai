@@ -1,9 +1,9 @@
 package com.fit.personal.presentation.controller
 
 import com.fit.data.persistence.entity.UserRole
+import com.fit.personal.domain.usecase.PersonalUseCaseFactory
 import com.fit.personal.presentation.controller.dto.GetUserByPersonalRequest
 import com.fit.personal.presentation.controller.dto.GetUserByPersonalResponse
-import com.fit.personal.domain.usecase.PersonalUseCaseFactory
 import io.micronaut.http.HttpResponse
 import io.micronaut.http.annotation.Body
 import io.micronaut.http.annotation.Controller

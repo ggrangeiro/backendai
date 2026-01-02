@@ -8,7 +8,7 @@ import io.micronaut.transaction.annotation.Transactional
 import jakarta.validation.constraints.NotBlank
 import java.time.Instant
 
-@JdbcRepository(dialect = Dialect.H2)
+@JdbcRepository(dialect = Dialect.MYSQL)
 interface RefreshTokenRepository : CoroutineCrudRepository<RefreshTokenEntity, Long> {
 
     @Transactional

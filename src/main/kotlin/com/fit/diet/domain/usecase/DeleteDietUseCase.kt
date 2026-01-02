@@ -17,7 +17,7 @@ class DeleteDietUseCase(
         } catch (_: Exception) {
             throw HttpStatusException(
                 HttpStatus.INTERNAL_SERVER_ERROR,
-                "Exercise can not be deleted"
+                "Diet can not be deleted"
             )
         }
     }

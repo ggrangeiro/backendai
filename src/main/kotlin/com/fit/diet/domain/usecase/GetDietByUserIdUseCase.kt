@@ -1,5 +1,3 @@
-@file:JvmName("GetAllExercisesUseCaseKt")
-
 package com.fit.diet.domain.usecase
 
 import com.fit.diet.domain.ports.DietRepositoryPort

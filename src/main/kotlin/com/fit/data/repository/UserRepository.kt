@@ -8,7 +8,7 @@ import io.micronaut.data.repository.kotlin.CoroutineCrudRepository
 import io.micronaut.transaction.annotation.Transactional
 import jakarta.validation.constraints.NotBlank
 
-@JdbcRepository(dialect = Dialect.H2)
+@JdbcRepository(dialect = Dialect.MYSQL)
 interface UserRepository : CoroutineCrudRepository<UserEntity, Long> {
 
     @Transactional
