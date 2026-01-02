@@ -1,4 +1,4 @@
-package com.fit.auth.domain.dto
+package com.fit.auth.presentation.controller.dto
 
 import io.micronaut.serde.annotation.Serdeable
 

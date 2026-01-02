@@ -1,6 +1,6 @@
 package com.fit.auth.domain.usecase
 
-import com.fit.auth.domain.dto.LogoutRequest
+import com.fit.auth.presentation.controller.dto.LogoutRequest
 import com.fit.auth.domain.ports.RefreshTokenRepositoryPort
 import com.fit.utils.sha256Hex
 import io.micronaut.http.HttpStatus

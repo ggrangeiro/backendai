@@ -12,12 +12,10 @@ data class RefreshTokenEntity(
     @field:Id
     @field:GeneratedValue
     val id: Long? = null,
-
     val userId: Long,
     val tokenHash: String,
     val expiresAt: Instant,
     val revokedAt: Instant? = null,
-
     @DateCreated
     val createdAt: Instant? = null
 )

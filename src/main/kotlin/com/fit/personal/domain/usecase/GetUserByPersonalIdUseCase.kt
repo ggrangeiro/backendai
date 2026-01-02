@@ -1,10 +1,9 @@
 package com.fit.personal.domain.usecase
 
-import com.fit.auth.domain.model.User
 import com.fit.auth.domain.ports.UserRepositoryPort
-import com.fit.personal.domain.dto.GetUserByPersonalRequest
-import com.fit.personal.domain.dto.GetUserByPersonalResponse
-import com.fit.personal.domain.dto.StudentDTO
+import com.fit.personal.presentation.controller.dto.GetUserByPersonalRequest
+import com.fit.personal.presentation.controller.dto.GetUserByPersonalResponse
+import com.fit.utils.toStudentDTO
 import io.micronaut.http.HttpStatus
 import io.micronaut.http.exceptions.HttpStatusException
 
@@ -24,9 +23,3 @@ class GetUserByPersonalIdUseCase(
     }
 }
 
-private fun User.toStudentDTO() =
-    StudentDTO(
-        id = this.id,
-        name = this.name,
-        email = this.email
-    )

@@ -1,4 +1,4 @@
-package com.fit.exercises.domain.dto
+package com.fit.personal.presentation.controller.dto
 
 import io.micronaut.serde.annotation.Serdeable
 

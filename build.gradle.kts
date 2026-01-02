@@ -23,7 +23,6 @@ dependencies {
     ksp("io.micronaut.security:micronaut-security-annotations")
     ksp("io.micronaut.serde:micronaut-serde-processor")
     ksp("io.micronaut.validation:micronaut-validation-processor")
-
     implementation("io.micrometer:context-propagation")
     implementation("io.micronaut.data:micronaut-data-jdbc")
     implementation("io.micronaut.flyway:micronaut-flyway")
@@ -135,5 +134,3 @@ tasks.register("arroz") {
 tasks.named<io.micronaut.gradle.docker.NativeImageDockerfile>("dockerfileNative") {
     jdkVersion = "21"
 }
-
-

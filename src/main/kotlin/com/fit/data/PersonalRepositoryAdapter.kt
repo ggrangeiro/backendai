@@ -1,4 +1,4 @@
-package com.fit.exercises.data
+package com.fit.data
 
 class PersonalRepositoryAdapter {
 }

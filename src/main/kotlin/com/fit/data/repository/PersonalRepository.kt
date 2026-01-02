@@ -1,4 +1,4 @@
-package com.fit.personal.data.repository
+package com.fit.data.repository
 
 import com.fit.data.persistence.entity.UserEntity
 import com.fit.data.persistence.entity.UserRole

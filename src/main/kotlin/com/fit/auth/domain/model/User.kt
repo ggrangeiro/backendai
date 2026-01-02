@@ -8,5 +8,5 @@ data class User(
     val name: String,
     val passwordHash: String,
     val isActive: Boolean,
-    val role: UserRole = UserRole.USER
+    val role: UserRole
 )

@@ -9,12 +9,9 @@ data class ExerciseEntity(
     @field:Id
     @field:GeneratedValue
     val id: Long? = null,
-
     val name: String,
-
     @DateCreated
     val createdAt: Instant? = null,
-
     @DateUpdated
     val updatedAt: Instant? = null
 )

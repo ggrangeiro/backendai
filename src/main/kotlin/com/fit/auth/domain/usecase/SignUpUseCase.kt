@@ -1,7 +1,7 @@
 package com.fit.auth.domain.usecase
 
-import com.fit.auth.domain.dto.SignUpRequest
-import com.fit.auth.domain.dto.SignUpResponse
+import com.fit.auth.presentation.controller.dto.SignUpRequest
+import com.fit.auth.presentation.controller.dto.SignUpResponse
 import com.fit.auth.domain.ports.PasswordHasherPort
 import com.fit.auth.domain.ports.UserRepositoryPort
 import com.fit.data.persistence.entity.UserRole
