@@ -16,7 +16,7 @@ interface UserRepository : CoroutineCrudRepository<UserEntity, Long> {
         @NotBlank email: String,
         @NotBlank password: String,
         @NotBlank name: String,
-        @NotBlank role: UserRole
+        role: UserRole
     ): UserEntity
 
     suspend fun findByEmail(email: String): UserEntity?

@@ -8,12 +8,12 @@ import io.micronaut.http.annotation.*
 import io.micronaut.security.annotation.Secured
 import jakarta.inject.Inject
 
-@Controller("/exercises")
+@Controller("/exercise")
 class ExerciseController(
     @Inject private val factory: ExerciseUseCaseFactory
 ) {
     @Post("/")
-    @Secured(UserRole.ROLE_ADMIN)
+    @Secured(UserRole.ROLE_ADMIN, UserRole.ROLE_PERSONAL)
     suspend fun createExercise(@Body req: CreateExerciseRequest): HttpResponse<CreateExerciseResponse> {
         val res = factory.createExerciseUseCase().execute(req)
         return HttpResponse.ok(res)

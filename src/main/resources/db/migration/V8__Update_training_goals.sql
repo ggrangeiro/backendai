@@ -1,0 +1,10 @@
+UPDATE training
+SET goal = 'DEFINITION'
+WHERE goal = 'MAINTENANCE';
+
+ALTER TABLE training MODIFY COLUMN goal ENUM(
+    'WEIGHT_LOSS',
+    'HYPERTROPHY',
+    'PURE_STRENGTH',
+    'DEFINITION'
+    ) NOT NULL;

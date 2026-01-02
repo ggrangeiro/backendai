@@ -26,13 +26,14 @@ class CustomRefreshTokenPersistence(
     override fun persistToken(event: RefreshTokenGeneratedEvent?) {
         if (event?.refreshToken != null && event.authentication?.name != null) {
             runBlocking {
-                userRepository.findByEmail(event.authentication.name)?.let {
-                    refreshTokenRepository.save(
-                        it.id!!,
-                        event.refreshToken,
-                        Instant.now().plusSeconds(3600)
-                    )
-                }
+                val user = userRepository.findByEmail(event.authentication.name)
+                    ?: throw OauthErrorResponseException(INVALID_GRANT)
+
+                refreshTokenRepository.save(
+                    user.id!!,
+                    event.refreshToken,
+                    Instant.now().plusSeconds(3600)
+                )
             }
         }
     }

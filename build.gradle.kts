@@ -74,8 +74,8 @@ java {
 }
 
 micronaut {
-    // runtime("google_function")
-    runtime("netty")
+  // runtime("google_function")
+   runtime("netty")
     testRuntime("junit5")
     processing {
         incremental(true)

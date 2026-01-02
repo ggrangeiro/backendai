@@ -1,9 +1,8 @@
 package com.fit.auth.presentation.controller
 
-import com.fit.auth.presentation.controller.dto.LogoutRequest
+import com.fit.auth.domain.usecase.AuthUseCaseFactory
 import com.fit.auth.presentation.controller.dto.SignUpRequest
 import com.fit.auth.presentation.controller.dto.SignUpResponse
-import com.fit.auth.domain.usecase.AuthUseCaseFactory
 import com.fit.data.persistence.entity.UserRole
 import io.micronaut.http.HttpResponse
 import io.micronaut.http.annotation.Body
@@ -26,7 +25,7 @@ class AuthController(
     }
 
     @Secured(UserRole.ROLE_PERSONAL)
-    @Post("/personal/signup")
+    @Post("/student/signup")
     suspend fun studentSignUp(@Body req: SignUpRequest): HttpResponse<SignUpResponse> {
         val res = factory.signUpUseCase().execute(req, UserRole.USER)
         return HttpResponse.ok(res)
@@ -37,12 +36,5 @@ class AuthController(
     suspend fun personalSignUp(@Body req: SignUpRequest): HttpResponse<SignUpResponse> {
         val res = factory.signUpUseCase().execute(req, UserRole.PERSONAL)
         return HttpResponse.ok(res)
-    }
-
-    @Post("/logout")
-    @Secured(SecurityRule.IS_AUTHENTICATED)
-    suspend fun logout(@Body req: LogoutRequest): HttpResponse<Any> {
-        factory.logoutUseCase().execute(req)
-        return HttpResponse.noContent()
     }
 }
