@@ -26,6 +26,7 @@ class AuthenticationProviderUserPassword<B>(
         val identity = authRequest.identity.trim().lowercase()
         val secret = authRequest.secret
         var role = UserRole.ADMIN.name
+        var userId = ""
         if (identity != "admin@admin.com") {
             val user = userRepo.findByEmail(identity)
                 ?: return@runBlocking AuthenticationResponse.failure(
@@ -41,7 +42,9 @@ class AuthenticationProviderUserPassword<B>(
                 )
             }
             role = user.role.name
+            userId = user.id.toString()
         }
-        AuthenticationResponse.success(identity, listOf(role))
+        val attributes = mapOf("id" to userId)
+        AuthenticationResponse.success(identity, listOf(role), attributes)
     }
 }
