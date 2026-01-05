@@ -1,15 +1,16 @@
 package com.fit.exercises.presentation.controller.dto
 
+import com.fit.data.persistence.entity.ExerciseCategoryEntity
 import io.micronaut.serde.annotation.Serdeable
 
 @Serdeable
-data class CreateExerciseRequest(val name: String)
+data class CreateExerciseRequest(val name: String, val category: ExerciseCategoryEntity)
 
 @Serdeable
 data class CreateExerciseResponse(val exercise: ExerciseDTO)
 
 @Serdeable
-data class EditExerciseRequest(val name: String, val id: Long)
+data class EditExerciseRequest(val name: String, val id: Long, val category: ExerciseCategoryEntity)
 
 @Serdeable
 data class EditExerciseResponse(val exercise: ExerciseDTO)

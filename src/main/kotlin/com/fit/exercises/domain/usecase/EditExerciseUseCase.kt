@@ -16,7 +16,8 @@ class EditExerciseUseCase(
             "Exercise ${req.name} already exists"
         )
 
-        val response = exerciseRepo.updateExercise(id = req.id, name = req.name).toExerciseDTO()
+        val response =
+            exerciseRepo.updateExercise(id = req.id, name = req.name, category = req.category).toExerciseDTO()
         return EditExerciseResponse(response)
     }
 }

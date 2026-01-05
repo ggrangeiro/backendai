@@ -8,4 +8,5 @@ class PersonalUseCaseFactory(
     val userRepo: UserRepositoryPort
 ) {
     fun getUserByPersonalIdUseCase() = GetUserByPersonalIdUseCase(userRepo)
+    fun getAddCreditsUseCaseUseCase() = AddCreditsUseCase(userRepo)
 }

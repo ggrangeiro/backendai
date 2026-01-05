@@ -18,7 +18,7 @@ class CreateExerciseUseCase(
             )
         }
 
-        val response = exerciseRepo.saveExercise(req.name).toExerciseDTO()
+        val response = exerciseRepo.saveExercise(req.name, req.category).toExerciseDTO()
 
         return CreateExerciseResponse(response)
     }

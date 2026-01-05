@@ -30,6 +30,11 @@ class UserRepositoryAdapter(
         return userList
     }
 
+    override suspend fun addCredits(
+        userId: Long,
+        amount: Long
+    ): Long = repo.addCredits(userId, amount)
+
     private fun UserEntity.toDomain(): User =
         User(
             id = this.id!!,

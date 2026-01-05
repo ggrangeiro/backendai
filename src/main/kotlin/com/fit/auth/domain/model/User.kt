@@ -8,5 +8,6 @@ data class User(
     val name: String,
     val passwordHash: String,
     val isActive: Boolean,
-    val role: UserRole
+    val role: UserRole,
+    val credits: Long? = null,
 )

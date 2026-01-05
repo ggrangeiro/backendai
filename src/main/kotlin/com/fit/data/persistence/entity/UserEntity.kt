@@ -21,6 +21,8 @@ data class UserEntity(
     val personalId: Long? = null,
     val sex: SexEntity? = null,
     val role: UserRole,
+    @MappedProperty("credits")
+    val credits: Long? = null,
     @DateCreated
     val createdAt: Instant? = null,
     @DateUpdated

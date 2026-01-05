@@ -62,7 +62,11 @@ micronaut:
             secret: ${JWT_GENERATOR_SIGNATURE_SECRET:12312312312312312312312312312312}
 reactor:
   enable-automatic-context-propagation: false
-
+jpa:
+  default:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
 datasources:
   default:
     url: jdbc:mysql://localhost:3306/exercicio-fit?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC

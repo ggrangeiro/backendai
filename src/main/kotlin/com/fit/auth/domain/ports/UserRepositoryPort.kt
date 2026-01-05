@@ -8,4 +8,5 @@ interface UserRepositoryPort {
     suspend fun saveUser(email: String, name: String, password: String, role: UserRole): User?
     suspend fun findById(id: Long): User?
     suspend fun findUsersByPersonalId(id: Long): List<User?>
+    suspend fun addCredits(userId: Long, amount: Long): Long
 }

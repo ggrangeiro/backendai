@@ -1,5 +1,6 @@
 package com.fit.data
 
+import com.fit.data.persistence.entity.ExerciseCategoryEntity
 import com.fit.data.persistence.entity.ExerciseEntity
 import com.fit.data.persistence.entity.UserExerciseEntity
 import com.fit.data.persistence.entity.UserExerciseId
@@ -16,14 +17,16 @@ class ExerciseRepositoryAdapter(
     private val exerciseRepo: ExerciseRepository,
     private val userExerciseRepo: UserExerciseRepository,
 ) : ExerciseRepositoryPort {
-    override suspend fun saveExercise(name: String): Exercise = exerciseRepo.save(name).toDomain()
-    override suspend fun updateExercise(id: Long, name: String): Exercise =
-        exerciseRepo.save(name = name, id = id).toDomain()
+    override suspend fun saveExercise(name: String, category: ExerciseCategoryEntity): Exercise =
+        exerciseRepo.save(name, category).toDomain()
+
+    override suspend fun updateExercise(id: Long, name: String, categoryEntity: ExerciseCategoryEntity): Exercise =
+        exerciseRepo.save(name = name, id = id, categoryEntity).toDomain()
 
     override suspend fun findByName(name: String): Exercise? = exerciseRepo.findByName(name)?.toDomain()
     override suspend fun findByUserId(id: Long): List<Exercise> =
         userExerciseRepo.findByIdUserId(id).mapIndexed { index, dto ->
-            Exercise(index.toLong()+1, dto.exerciseName)
+            Exercise(index.toLong() + 1, dto.exerciseName)
         }
 
     override suspend fun assignExerciseToUser(exerciseId: Long, userId: Long): Boolean {

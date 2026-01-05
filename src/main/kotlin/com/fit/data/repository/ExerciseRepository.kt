@@ -1,5 +1,6 @@
 package com.fit.data.repository
 
+import com.fit.data.persistence.entity.ExerciseCategoryEntity
 import com.fit.data.persistence.entity.ExerciseEntity
 import io.micronaut.data.jdbc.annotation.JdbcRepository
 import io.micronaut.data.model.query.builder.sql.Dialect
@@ -10,10 +11,10 @@ import jakarta.validation.constraints.NotBlank
 @JdbcRepository(dialect = Dialect.MYSQL)
 interface ExerciseRepository : CoroutineCrudRepository<ExerciseEntity, Long> {
     @Transactional
-    suspend fun save(@NotBlank name: String): ExerciseEntity
+    suspend fun save(@NotBlank name: String, category: ExerciseCategoryEntity): ExerciseEntity
 
     @Transactional
-    suspend fun save(@NotBlank name: String, id: Long): ExerciseEntity
+    suspend fun save(@NotBlank name: String, id: Long, category: ExerciseCategoryEntity): ExerciseEntity
 
     suspend fun findByName(name: String): ExerciseEntity?
 }

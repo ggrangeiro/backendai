@@ -14,3 +14,9 @@ data class StudentDTO(
     val name: String,
     val email: String,
 )
+
+@Serdeable
+data class GiveCreditsRequest(val userId: Long, val amount: Long)
+
+@Serdeable
+data class GiveCreditsResponse(val success: Boolean)

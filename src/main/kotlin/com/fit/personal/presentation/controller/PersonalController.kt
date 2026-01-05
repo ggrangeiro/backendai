@@ -4,6 +4,8 @@ import com.fit.data.persistence.entity.UserRole
 import com.fit.personal.domain.usecase.PersonalUseCaseFactory
 import com.fit.personal.presentation.controller.dto.GetUserByPersonalRequest
 import com.fit.personal.presentation.controller.dto.GetUserByPersonalResponse
+import com.fit.personal.presentation.controller.dto.GiveCreditsRequest
+import com.fit.personal.presentation.controller.dto.GiveCreditsResponse
 import io.micronaut.http.HttpResponse
 import io.micronaut.http.annotation.Body
 import io.micronaut.http.annotation.Controller
@@ -17,8 +19,20 @@ class PersonalController(
 ) {
     @Post("/students")
     @Secured(UserRole.ROLE_ADMIN, UserRole.ROLE_PERSONAL)
-    suspend fun signup(@Body req: GetUserByPersonalRequest): HttpResponse<GetUserByPersonalResponse> {
+    suspend fun getUser(@Body req: GetUserByPersonalRequest): HttpResponse<GetUserByPersonalResponse> {
         val res = factory.getUserByPersonalIdUseCase().execute(req)
+        return HttpResponse.ok(res)
+    }
+}
+
+@Controller("/admin")
+class AdminController(
+    @Inject private val factory: PersonalUseCaseFactory
+) {
+    @Post("/credits")
+    @Secured(UserRole.ROLE_ADMIN)
+    suspend fun giveCredits(@Body req: GiveCreditsRequest): HttpResponse<GiveCreditsResponse> {
+        val res = factory.getAddCreditsUseCaseUseCase().execute(req)
         return HttpResponse.ok(res)
     }
 }

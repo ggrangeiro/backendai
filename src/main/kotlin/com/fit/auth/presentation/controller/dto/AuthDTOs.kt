@@ -13,4 +13,4 @@ data class SignUpRequest(
 )
 
 @Serdeable
-data class SignUpResponse(val email: String, val password: String)
+data class SignUpResponse(val email: String)

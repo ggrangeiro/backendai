@@ -24,11 +24,14 @@ class CustomLoginHandler(
         return if (tokenOptional.isPresent) {
             val accessTokenBean = tokenOptional.get()
             val userId = authentication.attributes["id"]?.toString() ?: ""
+            val roles = authentication.roles
+
             val body = mutableMapOf<String, Any>(
                 "access_token" to accessTokenBean.accessToken,
                 "token_type" to "Bearer",
                 "expires_in" to (accessTokenBean.expiresIn ?: 3600),
-                "user_id" to userId
+                "user_id" to userId,
+                "roles" to roles
             )
             accessTokenBean.refreshToken?.let {
                 body["refresh_token"] = it
@@ -45,14 +48,15 @@ class CustomLoginHandler(
         request: HttpRequest<*>
     ): MutableHttpResponse<*> {
         val tokenOptional = accessRefreshTokenGenerator.generate(authentication)
-
+        val roles = authentication.roles
         return if (tokenOptional.isPresent) {
             val accessTokenBean = tokenOptional.get()
             val body = mapOf(
                 "access_token" to accessTokenBean.accessToken,
                 "token_type" to "Bearer",
                 "expires_in" to (accessTokenBean.expiresIn ?: 3600),
-                "refresh_token" to (accessTokenBean.refreshToken ?: "")
+                "refresh_token" to (accessTokenBean.refreshToken ?: ""),
+                "roles" to roles
             )
             HttpResponse.ok(body)
         } else {

@@ -10,6 +10,8 @@ data class ExerciseEntity(
     @field:GeneratedValue
     val id: Long? = null,
     val name: String,
+
+    val category: ExerciseCategoryEntity,
     @DateCreated
     val createdAt: Instant? = null,
     @DateUpdated
